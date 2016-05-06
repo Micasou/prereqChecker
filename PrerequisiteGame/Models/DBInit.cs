@@ -11,15 +11,19 @@ namespace PrerequisiteGame.Models
 {
     public class DBInit : System.Data.Entity.DropCreateDatabaseIfModelChanges<ClassContext>
     {
+        private StreamWriter theOutput;
         protected override void Seed(ClassContext Context)
         {
+
+            theOutput = File.CreateText("OutputFIle.txt"); //text document to spit out to
             var classes = new List<ClassModel>();
-            StringBuilder temp = new StringBuilder();
             StringBuilder parser = new StringBuilder();
             string core = "https://www.washington.edu/students/crscatt/";
             string[] links = System.IO.File.ReadAllLines(@"../UnparsedLinks.txt"); //read each link
             string[] titles = new string[links.Length]; //one of the parse arrays of data
-            //string[] code
+            HtmlWeb web = new HtmlWeb();
+            HtmlDocument document = new HtmlDocument();
+            HtmlNode[] nodes;
             for (int i = 0; i < links.Length; i++)
             {
                 //Get line, then extract all info form the line of HTML.
@@ -30,7 +34,7 @@ namespace PrerequisiteGame.Models
                 parser.Replace("</li>", "");
                 parser.Replace("\">", " ").ToString(); //returns the replaced string
                 string stringHolder;
-                Boolean foundTarget = false;
+                bool foundTarget = false;
                 int counter = 0;
                 stringHolder = parser.ToString();
                 while (!foundTarget)
@@ -40,29 +44,36 @@ namespace PrerequisiteGame.Models
                         foundTarget = true;
                 }
                 parser.Length = counter; //chop off the rest of the text.
-                titles[i] = parser.ToString();
-                parser.Clear();
-                parser.Append(stringHolder);
-                parser.Replace(titles[i]+ " ", ""); //remove title from 
+                links[i] = parser.ToString(); //send link to the array
+                parser.Clear(); //clear the parser
+                parser.Append(stringHolder); //append old file
+                parser.Replace(titles[i]+ " ", ""); //remove link and get only the title
+                titles[i] = parser.ToString(); //we now have the titles and the type code EXAMPLE Computer Science & Systems (T CSS) 
             }
+            parser.Clear();
             for(int i =0; i < links.Length; i++)
             {
-                temp.Append(core); //append core file apth
-                temp.Append(links[i]); //append extension file path.
-                titles = parseOutClasses(temp.ToString(), titles); //call function to grab all the information on the page.
-                for(int j = 0; i < titles.Length; i++) //for loop to parse all the chunks of data. and store into text file and DB.
-                {
+                parser.Append(core); //append core file apth
+                parser.Append(links[i]); //append extension file path.
+                document = web.Load(parser.ToString());
 
-                }
-                temp.Clear();//reset for next cycle
+                parser.Clear();//reset for next cycle
             }
             base.Seed(Context);
         }
-
-        private string[] parseOutClasses(string toString, string[] titles)
+        private List<Classes> GetClasses(string Path)
         {
-            throw new NotImplementedException();
+            List<Classes> ClassList = new List<Classes>();
 
+            return ClassList;
+        }
+        private class Classes
+        {
+            public int CID { get; set; } //Course Number
+            public string CourseCode { get; set; } //Example T ACCT
+            public string CourseName { get; set; } //example FInancial Accoutning II:gvwhghw
+            public List<String> CourseCodePrereqs { get; set; } //list of the TACCT210, etc.
+            public int credits { get; set; } //credit the class is worth
         }
     }
 }
