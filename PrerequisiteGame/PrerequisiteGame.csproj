@@ -210,8 +210,11 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClassOfferingsController.cs" />
+    <Compile Include="Controllers\CurrentClassOfferingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -289,6 +292,21 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Students\Create.cshtml" />
+    <Content Include="Views\Students\Delete.cshtml" />
+    <Content Include="Views\Students\Details.cshtml" />
+    <Content Include="Views\Students\Edit.cshtml" />
+    <Content Include="Views\Students\Index.cshtml" />
+    <Content Include="Views\ClassOfferings\Create.cshtml" />
+    <Content Include="Views\ClassOfferings\Delete.cshtml" />
+    <Content Include="Views\ClassOfferings\Details.cshtml" />
+    <Content Include="Views\ClassOfferings\Edit.cshtml" />
+    <Content Include="Views\ClassOfferings\Index.cshtml" />
+    <Content Include="Views\CurrentClassOfferings\Create.cshtml" />
+    <Content Include="Views\CurrentClassOfferings\Delete.cshtml" />
+    <Content Include="Views\CurrentClassOfferings\Details.cshtml" />
+    <Content Include="Views\CurrentClassOfferings\Edit.cshtml" />
+    <Content Include="Views\CurrentClassOfferings\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

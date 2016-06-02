@@ -1,0 +1,56 @@
+﻿@model PrerequisiteGame.Models.CurrentClassOffering
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CurrentClassOffering</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassOffering.CourseCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassOffering.CourseCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quarter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quarter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.timeOffered)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timeOffered)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

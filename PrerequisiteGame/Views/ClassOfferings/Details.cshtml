@@ -1,0 +1,50 @@
+﻿@model PrerequisiteGame.Models.ClassOffering
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ClassOffering</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseDescription)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClassOfferingID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
