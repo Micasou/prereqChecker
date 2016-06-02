@@ -16,7 +16,7 @@ namespace PrerequisiteGame.Models
         {
 
             theOutput = File.CreateText("OutputFIle.txt"); //text document to spit out to
-            var classes = new List<ClassModel>();
+            var classes = new List<ClassOffering>();
             StringBuilder parser = new StringBuilder();
             string core = "https://www.washington.edu/students/crscatt/";
             string[] links = System.IO.File.ReadAllLines(@"../UnparsedLinks.txt"); //read each link

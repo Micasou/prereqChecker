@@ -13,7 +13,7 @@ namespace PrerequisiteGame.Models
         {
 
         }
-        public DbSet<ClassModel> Classes { get; set; }
+        public DbSet<ClassOffering> Classes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

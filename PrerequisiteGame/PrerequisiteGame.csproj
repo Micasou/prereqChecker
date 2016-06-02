@@ -217,10 +217,15 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ClassContext.cs" />
-    <Compile Include="Models\ClassModel.cs" />
+    <Compile Include="Models\ClassesTaken.cs" />
+    <Compile Include="Models\ClassOffering.cs" />
+    <Compile Include="Models\CurrentClassOffering.cs" />
     <Compile Include="Models\DBInit.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Prereq.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentSchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
