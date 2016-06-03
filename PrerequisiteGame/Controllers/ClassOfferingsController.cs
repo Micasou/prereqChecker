@@ -20,6 +20,10 @@ namespace PrerequisiteGame.Controllers
             return View(db.ClassOfferings.ToList());
         }
 
+        public ActionResult Search(string searchString)
+        {
+            return View(db.ClassOfferings.Where(a => a.CourseCode.Contains(searchString) || a.CourseDescription.Contains(searchString) || a.CourseName.Contains(searchString)));
+        }
         // GET: ClassOfferings/Details/5
         public ActionResult Details(int? id)
         {

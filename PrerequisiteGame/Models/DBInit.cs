@@ -20,7 +20,7 @@ namespace PrerequisiteGame.Models
         protected override void Seed(ClassContext Context)
         {
             int globalID = 0;
-            System.IO.StreamReader file = new System.IO.StreamReader("C:\\Users\\Shikari\\Documents\\GitHub\\prereqChecker\\PrerequisiteGame\\Models\\Classes.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader("C:\\Users\\AlexO_000\\Documents\\GitHub\\prereqChecker\\PrerequisiteGame\\Models\\Classes.txt");
             string line;
             bool validLine = false;
             bool firstOfSet = true;
@@ -80,6 +80,44 @@ namespace PrerequisiteGame.Models
                     globalID++;
                 }
                 validLine = false;
+            }
+
+            //Randomly seed the database with some students.
+            string[] StudentFirstNames = { "Alex", "Todd", "Emily", "Harrison", "Kyle", "Hannah" };
+            string[] StudentLastNames = {"Orozco", "Mostrom", "Juca"};
+            string email = "@fakeurl.com";
+            Student[] Studentsss = new Student[StudentFirstNames.Length];
+            i = 0;
+            Random randomGenerator = new Random();
+            foreach (string firstName in StudentFirstNames)
+            {
+                Studentsss[i] = new Student();
+                Studentsss[i].firstName = firstName;
+                Studentsss[i].lastName = StudentLastNames[randomGenerator.Next() % StudentLastNames.Length];
+                Studentsss[i].email = firstName + Studentsss[i].lastName + email;
+                Context.Students.Add(Studentsss[i]);
+                i++;
+            }
+
+            Context.SaveChanges();
+            /*
+            Seed the database with some class offerings*/
+            List<ClassOffering> theClasses = Context.ClassOfferings.ToList();
+            string[] SomeDates = {"MW", "TTH", "MWF" };
+            string[] someTimes = {"8-9:20 am", "9:30-10:50 am", "11-12:20 pm", "12:30-1:50 pm", "2-3:20 pm", "3:30-4:50 pm", "5-6:20 pm", "6:30-7:50 pm", "8-9:20 pm" };
+            int tempIDs = 0;
+            foreach(ClassOffering aClass in theClasses)
+            {
+                CurrentClassOffering temp = new CurrentClassOffering();
+                temp.CurrentClassOfferingID = tempIDs;
+                temp.CID = aClass.CID;
+                temp.ClassOffering = aClass;
+                temp.daysOffered = SomeDates[randomGenerator.Next() % SomeDates.Length]; ;
+                temp.timeOffered = someTimes[randomGenerator.Next() % someTimes.Length]; ;
+                temp.Quarter = Quarter.Summer;
+                temp.Year = DateTime.Now;
+                tempIDs++;
+                Context.CurrentClassOfferings.Add(temp);
             }
 
             Context.SaveChanges();

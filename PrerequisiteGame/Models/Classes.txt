@@ -59,6 +59,7 @@ T ACCT 485 International Accounting (5)
 Enhances understanding of international accounting issues. Examines the impacts of accounting diversity on global capital flows, and explores the convergence of global accounting standards. Covers accounting for changing prices, goodwill and other intangibles, as well as social and environmental rep0rting, geographic segment disclosure practices, and financial reporting in developing economics.
 View course details in MyPlan: T ACCT 485
 T ACCT 490 Special Topics in Accounting (1-6, max. 6)
+Contact Advisor to setup.
 View course details in MyPlan: T ACCT 490
 T ACCT 500 Advanced Topics in Financial Accounting (4)
 Investigates advanced accounting issues related to business combinations, foreign currency transactions, financial derivatives, segment and interim reporting, intercompany transactions, SEC regulation and reporting requirements, and revenue recognition. Emphasizes the ability to examine related accounting principles, assess their impact on financial statements, and identify areas of potential misstatements. Prerequisite: Masters in Accounting students only.
@@ -110,22 +111,22 @@ Provides an opportunity to work independently exploring specific accounting topi
 View course details in MyPlan: T ACCT 600
 T ACCT 601 Internship (4/5)
 Provides students with practical knowledge and experience in an accounting environment. Permits students to develop their own strategic plan under faculty guidance. Permits student to preform field work utilizing the skills developed in classroom. Culminates with a research paper expanding on previously developed accounting knowledge. Prerequisite: Masters in Accounting students only.
-TBECON 220 Introduction to Microeconomic Theory (5) I&S, QSR
+T BECON 220 Introduction to Microeconomic Theory (5) I&S, QSR
 Introduces microeconomic theory applied to individual decision-making, analysis of markets, and the role of prices. Specific topics include consumer demand, production, exchange, resource allocation, and government intervention.
-View course details in MyPlan: TBECON 220
-TBECON 221 Introduction to Macroeconomic Theory (5) I&S, QSR
+View course details in MyPlan: T BECON 220
+T BECON 221 Introduction to Macroeconomic Theory (5) I&S, QSR
 Involves the study and analysis of the aggregate economy. Topics include the determination of national income, inflation, business fluctuations, unemployment, monetary systems, the federal budget, and international trade.
-View course details in MyPlan: TBECON 221
-TBECON 420 Intermediate Microeconomic Theory (5) QSR
+View course details in MyPlan: T BECON 221
+T BECON 420 Intermediate Microeconomic Theory (5) QSR
 Applies tools of intermediate microeconomic theory to issues of particular interest to business students. Topics include market processes, consumer theory, firm behavior in competitive and imperfectly competitive markets, product pricing, and strategic behavior. Prerequisite: minimum grade of 2.5 in T MATH 124, MATH 112, or MATH 124 or grade of 1.7 in T BUS 301.
-View course details in MyPlan: TBECON 420
-TBECON 421 Intermediate Macroeconomic Theory (5)
-Focuses on the use of intermediate economic theory to understand how financial markets are affected by macroeconomic variables. Specific emphasis is placed on international markets and how to assess the impact of difference macroeconomic policies. Prerequisite: TBECON 420.
-View course details in MyPlan: TBECON 421
-TBECON 422 Econometrics (5)
-Examines the statistical tools that are used to study financial and economic data, including multiple regression, regression diagnostics, time series models, stationarity, and cointegration. Applies these tools using modern statistical software. Prerequisite: TBECON 421, which may be taken concurrently.
-View course details in MyPlan: TBECON 422
-TBECON 423 FINANCIAL MARKETS AND INSTITUTIONS (5)
+View course details in MyPlan: T BECON 420
+T BECON 421 Intermediate Macroeconomic Theory (5)
+Focuses on the use of intermediate economic theory to understand how financial markets are affected by macroeconomic variables. Specific emphasis is placed on international markets and how to assess the impact of difference macroeconomic policies. Prerequisite: T BECON 420.
+View course details in MyPlan: T BECON 421
+T BECON 422 Econometrics (5)
+Examines the statistical tools that are used to study financial and economic data, including multiple regression, regression diagnostics, time series models, stationarity, and cointegration. Applies these tools using modern statistical software. Prerequisite: T BECON 421, which may be taken concurrently.
+View course details in MyPlan: T BECON 422
+T BECON 423 FINANCIAL MARKETS AND INSTITUTIONS (5)
 Examines the economic role of modern financial institutions and their relationship to the money and capital markets of developed economies. Includes the financial system, the Federal Reserve System, monetary policy, international financial relationships, and interest rate theory. Prerequisite: Minimum grade of 2.5 in T MATH 124, MATH 112, or MATH 124 or 1.7 in TBUS 301.
 T BGEN 111 Freshman Leadership Seminar (2) J. LAWLESS
 Introduces student to the core competencies of communication, teamwork, and ethics. Emphasizes service learning and experiential application of concepts through leadership projects. Promotes cohort identity and socialization for incoming freshman in the Milgard School of Business Freshman Direct Program. Offered: W.
@@ -161,7 +162,9 @@ T BGEN 468 International Business Field Experience (5-10, max. 10)
 Provides opportunities to gain actual international field experience. Involves applying knowledge and skills learned in business, international business and/or international management classes through an actual internship opportunity in another nation. Application and International Business faculty advisor's approval required. Prerequisite: Business core; either T MGMT 478 or T MGMT 480.
 View course details in MyPlan: T BGEN 468
 T BGEN 490 Special Topics (1-5, max. 15)
-T BUS 101 Introduction to Business (5) I&S
+Contact Advisor to setup.
+T BUS 101 Introduction to Business (5)
+I&S
 View course details in MyPlan: T BUS 101
 T BUS 102 Business and Society (5) I&S
 Facilitates a better understanding of the complex relationship between private enterprise and society at large; how business influences society and is influenced by society. Focuses on the obligations business has to its nonmarket stakeholders.
@@ -194,6 +197,7 @@ T BUS 469 Undergraduate Research (1-5, max. 15)
 Provides opportunity to explore a specific management or marketing topic, idea, project, or research interest that extends previous knowledge and broadens experience. Proposals and course criteria are developed in cooperation with specific faculty members prior to course registration.
 View course details in MyPlan: T BUS 469
 T BUS 490 Special Topics (1-5, max. 15)
+Contact Advisor to setup.
 View course details in MyPlan: T BUS 490
 T BUS 500 Quantitative Methods in Business (4)
 Examines statistical concepts including probability and probability distributions. Develops an understanding of sampling and estimation procedures, hypothesis T ESTing, and inference. Topics include correlation and regression analysis, and analysis of time series.
@@ -236,6 +240,7 @@ Provides a multiple perspectives approach to managing change. Examines competing
 View course details in MyPlan: T BUS 570
 T BUS 590 Special Topics in Business (1-4, max. 12)
 Advanced offerings designed to respond to faculty and student interests and needs.
+View course details in MyPlan: T BUS 570
 T FIN 420 Visual Basic Programming of Excel-based Financial Models (5)
 Develops Visual Basic financial model applications in the Excel spreadsheet. Includes a review of Excel, Visual Basic fundamentals, Excel financial functionalities, and extending Excel with Visual Basic. Applicable for students with a financial or information systems background. Prerequisite: either T BUS 330 or T ACCT 330.
 View course details in MyPlan: T FIN 420
@@ -314,6 +319,7 @@ T MGMT 480 International Management (5)
 Introduces the main issues concerning international management. Covers topics related to how managers pursue the global objectives of their organizations, including international strategy, modes of market entry, organization, staffing, and other cross-cultural management issues. Prerequisite: T BUS 300.
 View course details in MyPlan: T MGMT 480
 T MGMT 490 Special Topics in Management (5, max. 15)
+Contact Advisor to setup.
 View course details in MyPlan: T MGMT 490
 T MGMT 512 Business Ethics and Social Responsibility (4)
 Focuses on the ethical and moral challenges that are an everyday part of organizational life for managers. Addresses the societal consequences of managerial decisions and organizational actions. Considers global variance in ethical standards and impact of ethical behavior on organizational performance.
@@ -378,7 +384,7 @@ T MKTG 480 International Marketing (5)
 Extends basic marketing knowledge by examining the marketing strategies and tactics of companies that do business across borders. Topics include how firms research, identify, and enter international markets, and develop global marketing strategies. Prerequisite: T BUS 320.
 View course details in MyPlan: T MKTG 480
 T MKTG 490 Special Topics in Marketing (5, max. 15)
-Prerequisite: minimum grade of 1.7 in T BUS 320.
+Contact Advisor to setup. Prerequisite: minimum grade of 1.7 in T BUS 320.
 View course details in MyPlan: T MKTG 490
 T MKTG 520 Services Marketing (4)
 Explores the unique challenges of managing services and delivering service quality that lead to customer satisfaction. Examines methodologies available for measuring, analyzing and designing services. Investigates the role of marketing in attracting customers and shaping customer expectations. Prerequisite: TBUS 504.
@@ -1615,7 +1621,7 @@ T ECON 320 Gender and Development (5) I&S
 Applies economic concepts to examine the role of gender in economic and social change. Examines critical debates surrounding households, particularly decisions about land, labor, resource allocation, bargaining power, and education; and the role of internal organizations, laws, and corporations in women's access to economic opportunity and political power.
 View course details in MyPlan: T ECON 320
 T ECON 340 International Economics (5) I&S
-Examines theory, institutions, and case studies in international economics. Covers theory of international trade and international finance, and analyses of government trade and finance policies. Analyzes role of international institutions. Prerequisite: either T ECON 200, TBECON 220, TFIN 220, T ECON 201, TBECON 221, or TFIN 221.
+Examines theory, institutions, and case studies in international economics. Covers theory of international trade and international finance, and analyses of government trade and finance policies. Analyzes role of international institutions. Prerequisite: either T ECON 200, T BECON 220, TFIN 220, T ECON 201, T BECON 221, or TFIN 221.
 View course details in MyPlan: T ECON 340
 T ECON 360 Poverty in Developing Countries (5) I&S
 Examines the economic, social, and political factors that explain extreme poverty around the world. Examines patterns of extreme poverty, the relationship between domestic policies and poverty, and the role international factors play in contributing to and alleviating poverty in developing countries.
@@ -1627,7 +1633,7 @@ T ECON 394 Comparative Economic Development (5) I&S
 Introduces a variety of issues affecting Third World economies in a framework that emphasizes their particular and varied post-colonial histories. Draws on economic theory, cultural and economic anthropology, literature, and other sources to understand institutions and sources of change in these economies.
 View course details in MyPlan: T ECON 394
 T ECON 410 Economics of Public Policy (5) I&S
-Applies economic analysis to public issues, policies, and programs. Provides a theoretical understanding of markets and government policies to examine existing and alternative public policies. Analyzes case studies of government policies, and evaluates and critiques current public policies and alternatives. Prerequisite: either T ECON 200 or TBECON 220.
+Applies economic analysis to public issues, policies, and programs. Provides a theoretical understanding of markets and government policies to examine existing and alternative public policies. Analyzes case studies of government policies, and evaluates and critiques current public policies and alternatives. Prerequisite: either T ECON 200 or T BECON 220.
 View course details in MyPlan: T ECON 410
 T ECON 416 Current Issues in U.S. Public Policy (5) I&S
 Develops student's analytical and conceptual understanding of current key federal public policy issues and reform proposals. Examines the economic role of the government versus the private sector in the U.S. economy, and analyzes issues surrounding the appropriate size and role of the public sector.
@@ -1639,25 +1645,25 @@ T ECON 420 Economics of Education (5) I&S
 Examines topics in the economics of education including how schools re financed and why; what determines the amount and distribution of individual educational obtainment; debate over school vouchers; and the economic returns to education.
 View course details in MyPlan: T ECON 420
 T ECON 421 Environmental Policy (5) I&S/NW
-Examines tradeoffs between the formal economy and the environment, and assesses current environmental policy. Places particular emphasis on examining and understanding local environmental issues. Prerequisite: either T ECON 101, T ECON 200, TBECON 200, T ECON 201, or TBECON 221.
+Examines tradeoffs between the formal economy and the environment, and assesses current environmental policy. Places particular emphasis on examining and understanding local environmental issues. Prerequisite: either T ECON 101, T ECON 200, T BECON 200, T ECON 201, or T BECON 221.
 View course details in MyPlan: T ECON 421
 T ECON 425 Contemporary Issues in International Political Economy (5) I&S
-Investigates pressing issues confronting both industrialized and underdeveloped societies. Includes topics such as the international debt crisis, the changing international division of labor, poverty and inequality in the world economy, liberation movements, internationalization of production and regional disruptions in the U.S. Prerequisite: either T ECON 200, TBECON 220, T ECON 201, or TBECON 221.
+Investigates pressing issues confronting both industrialized and underdeveloped societies. Includes topics such as the international debt crisis, the changing international division of labor, poverty and inequality in the world economy, liberation movements, internationalization of production and regional disruptions in the U.S. Prerequisite: either T ECON 200, T BECON 220, T ECON 201, or T BECON 221.
 View course details in MyPlan: T ECON 425
 T ECON 430 Behavioral Economics (5) I&S
-Examines psychological regularities in people such as over-confidence, desires for fairness and revenge, addictions, self-serving biases, trust, herd behavior, loss-aversion, and procrastination. Incorporates these into economic models to develop theoretical understanding of economic anomalies. Prerequisite: either T ECON 200 or TBECON 221.
+Examines psychological regularities in people such as over-confidence, desires for fairness and revenge, addictions, self-serving biases, trust, herd behavior, loss-aversion, and procrastination. Incorporates these into economic models to develop theoretical understanding of economic anomalies. Prerequisite: either T ECON 200 or T BECON 221.
 View course details in MyPlan: T ECON 430
 T ECON 450 Labor Economics and Policy (5) I&S
-Analyzes of determinants of labor markets ouT COMes, and the effect of labor market policy in advanced capitalist economies, with primary reference to the United States. Prerequisite: either T ECON 200, T ECON 201, TBECON 220, or TBECON 221.
+Analyzes of determinants of labor markets ouT COMes, and the effect of labor market policy in advanced capitalist economies, with primary reference to the United States. Prerequisite: either T ECON 200, T ECON 201, T BECON 220, or T BECON 221.
 View course details in MyPlan: T ECON 450
 T ECON 460 China's Rise and its Global Economic Implications (5) I&S
-Explores and evaluates the implications of China's growth and management of its economy for both Chinese citizens as well as the global economic system. Develops the analytical background necessary to understand the recent rapid emergence of China. Prerequisite: either T ECON 200, TBECON 220, T ECON 201, ore TBECON 221.
+Explores and evaluates the implications of China's growth and management of its economy for both Chinese citizens as well as the global economic system. Develops the analytical background necessary to understand the recent rapid emergence of China. Prerequisite: either T ECON 200, T BECON 220, T ECON 201, ore T BECON 221.
 View course details in MyPlan: T ECON 460
 T ECON 461 Current Issues in the Chinese Economy (5) I&S
 Explores the most important economic challenges facing China today. Combines lecture with site visits and interactions with local business leaders and policymakers, allowing students the opportunity to study the Chinese economy with firsthand knowledge of experts living and working in China today. Offered: S.
 View course details in MyPlan: T ECON 461
 T ECON 470 Economics of Health and Health Policy (5) I&S
-Explores health, the healthcare sector and health policy issues from an economics perspective. Covers the demand for healthcare, health insurance markets, managed care, medical technology, government insurance programs, healthcare reform, and the pharmaceutical industry. Prerequisite: either T ECON 200, T ECON 201, TBECON 220, or TBECON 221.
+Explores health, the healthcare sector and health policy issues from an economics perspective. Covers the demand for healthcare, health insurance markets, managed care, medical technology, government insurance programs, healthcare reform, and the pharmaceutical industry. Prerequisite: either T ECON 200, T ECON 201, T BECON 220, or T BECON 221.
 View course details in MyPlan: T ECON 470
 T ESC 101 Introduction to Environmental Science (5) NW
 Provides an overview of physical and biological processes affecting the environment and exploration of current environmental issues. Topics may include earth system science, population and community ecology, evolution, conservation biology, water and air quality, natural resource management, and case studies relevant to the Pacific Northwest. Includes laboratory.
@@ -1939,6 +1945,7 @@ T ESC 464 Restoration Ecology Capstone: Field Site Restoration (-5) NW
 Teams take a restoration plan developed in ESRM 463 and complete the installation. Team participation may include supervision of volunteers. Teams prepare management guidelines for the client and conduct a training class for their use. Prerequisite: ESRM 463. Offered: jointly with BES 464/ESRM 464.
 View course details in MyPlan: T ESC 464
 T ESC 490 Topics in Environmental Science (1-7, max. 7) NW
+Contact Advisor to setup.
 View course details in MyPlan: T ESC 490
 T ESC 495 Environmental Research Experiences (3) NW
 Provides opportunities to complete group or individual environmental science for studies research project carried out within a structured course.
@@ -2300,7 +2307,8 @@ View course details in MyPlan: T HIST 341
 T HIST 343 Vietnam and the 1960s (5) I&S
 Examines the dissent and radicalism of the 1960s stemming from the Vietnam War, as well as civil rights and other causes. Explores various political questions pertinent to the 1960s through readings, films, music, and intensive discussion.
 View course details in MyPlan: T HIST 343
-T HIST 349 Minorities and Higher Education in American History (5) I&S
+T HIST 349 Minorities and Higher Education in American History (5) 
+I&S
 View course details in MyPlan: T HIST 349
 T HIST 350 Modern Germany Since 1848 (5) I&S
 Explores the history and the modern German nation state from the nineteenth century to the present; the rise of nationalism and the 1848 Revolution; the Bismark era, Imperial Germany, World War I, the Weimar Republic, the Nazi Regime, World War II, divided Germany, the post-war era, reunification, and Germany today.
@@ -3947,6 +3955,7 @@ T NURS 598 Scholarly Projects (1-12, max. 12)
 Scholarly inquiry with in-depth, focused analysis, culminating in a written product/report for dissemination. Prerequisite: T NURS 551. Credit/no-credit only.
 View course details in MyPlan: T NURS 598
 T NURS 599 Selected Readings in Nursing Science (1-3, max. 18)
+Contact advisor to setup.
 View course details in MyPlan: T NURS 599
 T NURS 600 Independent Study or Research (*-)
 Credit/no-credit only.
@@ -4366,10 +4375,13 @@ T GEOG 440 Political Geography: Territory, State and Society (5) I&S Dierwechter
 Introduction to political geography from the perspective of political economy and the politics of difference. Discusses both critical approaches to human geography and geographical interpretations of the state. Emphasizes spatial dimensions of capitalist development as mediated by urban, national and global politics. Offered: Sp.
 View course details in MyPlan: T GEOG 440
 T INTL 300 Foreign Study (*, max. 15)
+Contact advisor to setup.
 View course details in MyPlan: T INTL 300
 T INTL 399 Foreign Study (*, max. 15)
+Contact advisor to setup.
 View course details in MyPlan: T INTL 399
 T INTL 500 Foreign Study (*, max. 15)
+Contact advisor to setup.
 View course details in MyPlan: T INTL 500
 T SUD 222 Introduction to Sustainability (5) I&S
 Provides an introduction to the global goal of sustainability and surveys policies and techniques associated with current sustainability initiatives in diverse metropolitan environments. Includes a discussion of scientific debates; conflicts within and between societies at different levels of economic development; key policy arenas for action; and common methods used to further sustainability values.

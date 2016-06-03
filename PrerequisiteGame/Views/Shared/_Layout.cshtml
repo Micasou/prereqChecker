@@ -22,12 +22,19 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Classes", "../ClassOfferings/index", "index")</li>
-                    <li>@Html.ActionLink("Students", "../Students/index", "index")</li>
+                    <li>@Html.ActionLink("Classes", "../ClassOfferings/index", "ClassOfferings")</li>
+                    <li>@Html.ActionLink("Students", "../Students/index", "Students")</li>
+                    <li>@Html.ActionLink("Currently Offered Classes", "../CurrentClassOfferings/index", "CurrentClassOfferings")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@using (Html.BeginForm("Search", "ClassOfferings"))
+                    {
+                       <li> 
+                            Search Classes: @Html.TextBox("searchString")
+                            <input type="submit" value="Search" />
+                    </li>
+                    } 
+                    </li>
                 </ul>
-                @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>
@@ -35,7 +42,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Prerequisite</p>
         </footer>
     </div>
 
