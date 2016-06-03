@@ -32,7 +32,22 @@ namespace PrerequisiteGame.Controllers
             {
                 return HttpNotFound();
             }
-            return View(classOffering);
+
+            PreReqModelView PreReqModelView = new PreReqModelView(classOffering);
+            PreReqModelView.PrereqFor = db.ClassOfferings.Where(a => a.CourseDescription.Contains(classOffering.CourseCode)).ToList();  //We are getting everything that this class will open up 
+            List<ClassOffering> temp = db.ClassOfferings.ToList();
+            LinkedList<ClassOffering> theStuff = new LinkedList<ClassOffering>();
+            foreach(ClassOffering k in temp) 
+            {
+                if(classOffering.CourseDescription.Contains(k.CourseCode))
+                {
+                    theStuff.AddLast(k);
+                }
+            }
+            PreReqModelView.Requires = theStuff.ToList();//We are getting everything that is requires this class to be taken
+           //We are getting everything that is requires this class to be taken
+
+            return View(PreReqModelView);
         }
 
         // GET: ClassOfferings/Create

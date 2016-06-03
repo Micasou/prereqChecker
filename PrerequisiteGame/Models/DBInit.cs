@@ -12,20 +12,28 @@ namespace PrerequisiteGame.Models
     //we will create the database always to demonstrate the text parsing.
     public class DBInit : System.Data.Entity.DropCreateDatabaseAlways<ClassContext>
     {
+
+        /* THE FOLLOWING IS AN EXAMPLE OF THE TEXT THAT IS BEING PARSED FROM Classes.txt
+         * T ACCT 210 Financial Accounting I: Users Approach to Accounting (5)
+         * Introduces accounting concepts within the context of financial business decisions. Presents an overview of the role of accounting in the financial community and business operations. Emphasizes the external use of financial accounting for fiscal decision-making. Offered: A.
+         */
         protected override void Seed(ClassContext Context)
         {
-            System.IO.StreamReader file = new System.IO.StreamReader("./Classes.txt");
-            String line;
+            int globalID = 0;
+            System.IO.StreamReader file = new System.IO.StreamReader("C:\\Users\\Shikari\\Documents\\GitHub\\prereqChecker\\PrerequisiteGame\\Models\\Classes.txt");
+            string line;
             bool validLine = false;
             bool firstOfSet = true;
             string comparitiveLine = "View course details";
-            string courseTitle;
-            string courseNumber;
-            string courseDescription;
-            List<string> coursePrereqs;
+            string courseTitle = null, 
+                courseID = null, 
+                courseDescription = null;
+            int spaceCounter = 0, i = 0;
+            StringBuilder parser = new StringBuilder();
             while ((line = file.ReadLine())!= null) //read each line.
             {
-                for(int i = 0; i < line.Length && i < comparitiveLine.Length; i++) //some lines are junk, they start with "View course details MyPlan"
+               
+                for (i = 0; i < line.Length && i < comparitiveLine.Length; i++) //some lines are junk, they start with "View course details MyPlan"
                 {
                     if(line[i] != comparitiveLine[i])
                     {
@@ -35,14 +43,46 @@ namespace PrerequisiteGame.Models
                 }
                 if(validLine && firstOfSet) //first line of the pair for classes
                 {
+                    spaceCounter = 0;
+                    courseTitle = line;
+                    for(i =0; i < line.Length; i++)//parse out the 
+                    {
+                        if (line[i] == ' ') //if we find a space
+                            spaceCounter++;
+                        if(spaceCounter == 3)
+                        {
+                            i++;
+                            break;
+                        }
+                        parser.Append(line[i]);
+                    }
+                    courseID = parser.ToString();
+                    parser.Clear();
+                    for (; i < line.Length; i++)
+                    {
+                        parser.Append(line[i]);
+                    }
+                    courseTitle = parser.ToString();
+                    parser.Clear();
+                    firstOfSet = false;
+                }
+                else if(validLine && !firstOfSet) //we are in the description
+                {
+                    courseDescription = line;
+                    ClassOffering temp = new ClassOffering();
+                    temp.CourseCode = courseID;
+                    temp.CourseName = courseTitle;
+                    temp.ClassOfferingID = globalID;
+                    temp.CourseDescription = courseDescription;
 
-                    coursePrereqs = new List<String>();
+                    Context.ClassOfferings.Add(temp);
+                    firstOfSet = true;
+                    globalID++;
                 }
                 validLine = false;
             }
 
-
-            base.Seed(Context);
+            Context.SaveChanges();
         }
         /* All this commented code was the webscarpper, no longer need it.
            theOutput = File.CreateText("OutputFIle.txt"); //text document to spit out to

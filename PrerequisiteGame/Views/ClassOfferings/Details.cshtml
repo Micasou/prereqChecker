@@ -1,50 +1,114 @@
-﻿@model PrerequisiteGame.Models.ClassOffering
+﻿@model PrerequisiteGame.Models.PreReqModelView
 
 @{
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Class Details</h2>
 
 <div>
-    <h4>ClassOffering</h4>
+    <h3>Currently looking at....</h3>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.CID)
+            @Html.DisplayNameFor(model => model.ClassOffering.CourseCode)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.CID)
+            @Html.DisplayFor(model => model.ClassOffering.CourseCode)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.CourseCode)
+            @Html.DisplayNameFor(model => model.ClassOffering.CourseName)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.CourseCode)
+            @Html.DisplayFor(model => model.ClassOffering.CourseName)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.CourseName)
+            @Html.DisplayNameFor(model => model.ClassOffering.CourseDescription)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.CourseName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.CourseDescription)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.CourseDescription)
+            @Html.DisplayFor(model => model.ClassOffering.CourseDescription)
         </dd>
 
     </dl>
+    <h4>This class is a prereq for the following classes</h4>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseDescription)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.PrereqFor)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseDescription)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ClassOfferingID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ClassOfferingID })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <h4>This class requires following classes</h4>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassOffering.CourseDescription)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Requires)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseDescription)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ClassOfferingID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ClassOfferingID })
+                </td>
+            </tr>
+        }
+
+    </table>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ClassOfferingID }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClassOffering.ClassOfferingID }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
