@@ -32,7 +32,9 @@ namespace PrerequisiteGame.Controllers
             {
                 return HttpNotFound();
             }
-            return View(student);
+            TakenClassesStudentModelView TakenClassesStudentModelView = new TakenClassesStudentModelView(student);
+            TakenClassesStudentModelView.ClassesTaken = db.ClassesTakens.Where(a => a.StudentID == student.StudentID).ToList();
+            return View(TakenClassesStudentModelView);
         }
 
         // GET: Students/Create

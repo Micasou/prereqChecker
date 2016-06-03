@@ -5,10 +5,10 @@ T ACCT 220 Financial Accounting II: The Reporting Process (5)
 Introduces accounting processes that produce financial accounting reports including the balance sheet, income statement and statement of cash flows. Emphasizes how to gather, calculate, and organize accounting information into standardized reports based on the generally accepted accounting principles. Prerequisite: T ACCT 210. Offered: W.
 View course details in MyPlan: T ACCT 220
 T ACCT 230 Managerial Accounting (5)
-Provides an introduction to management accounting concepts in the context of business decisions. Explores management accounting's roles in the decision making process and how managers and other internal uses rely on the information to make better business decisions that benefit an organization. Prerequisite: T ACCT 220, or ACCTG 215. Offered: Sp.
+Provides an introduction to management accounting concepts in the context of business decisions. Explores management accounting's roles in the decision making process and how managers and other internal uses rely on the information to make better business decisions that benefit an organization. Prerequisite: T ACCT 220, or A CCTG 215. Offered: Sp.
 View course details in MyPlan: T ACCT 230
 T ACCT 301 Intermediate Accounting I (5)
-Concepts and principles of financial accounting. Analysis of controversies and problems related to the measurement of enterprise income and asset and liability valuation. Prerequisite: a minimum grade of 3.0 in T ACCT 210, T ACCT 220, and T ACCT 230 or a minimum grade of 3.0 in ACCTG 215 and ACCTG 225.
+Concepts and principles of financial accounting. Analysis of controversies and problems related to the measurement of enterprise income and asset and liability valuation. Prerequisite: a minimum grade of 3.0 in T ACCT 210, T ACCT 220, and T ACCT 230 or a minimum grade of 3.0 in A CCTG 215 and A CCTG 225.
 View course details in MyPlan: T ACCT 301
 T ACCT 302 Intermediate Accounting II (5)
 Continuation of 301. Concepts and principles of financial accounting. Analysis of controversies and problems related to the measurement of enterprise income and asset and liability valuation. Prerequisite: a minimum grade of 1.7 in T ACCT 301.

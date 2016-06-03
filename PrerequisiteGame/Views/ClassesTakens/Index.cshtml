@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PrerequisiteGame.Models.ClassesTaken>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentClassOffering.timeOffered)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Student.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GPA)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentClassOffering.timeOffered)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Student.firstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GPA)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ClassesTakenID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ClassesTakenID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ClassesTakenID })
+        </td>
+    </tr>
+}
+
+</table>

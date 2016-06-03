@@ -180,3 +180,4 @@ C:\Users\Shikari\Documents\GitHub\prereqChecker\PrerequisiteGame\bin\Microsoft.O
 C:\Users\Shikari\Documents\GitHub\prereqChecker\PrerequisiteGame\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Shikari\Documents\GitHub\prereqChecker\PrerequisiteGame\obj\Debug\PrerequisiteGame.dll
 C:\Users\Shikari\Documents\GitHub\prereqChecker\PrerequisiteGame\obj\Debug\PrerequisiteGame.pdb
+C:\Users\Shikari\Documents\GitHub\prereqChecker\PrerequisiteGame\obj\Debug\PrerequisiteGame.csprojResolveAssemblyReference.cache

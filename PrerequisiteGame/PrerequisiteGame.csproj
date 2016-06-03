@@ -210,6 +210,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClassesTakensController.cs" />
     <Compile Include="Controllers\ClassOfferingsController.cs" />
     <Compile Include="Controllers\CurrentClassOfferingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -230,6 +231,7 @@
     <Compile Include="Models\PreReqModelView.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentSchedule.cs" />
+    <Compile Include="Models\TakenClassesStudentModelView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -298,16 +300,18 @@
     <Content Include="Views\Students\Details.cshtml" />
     <Content Include="Views\Students\Edit.cshtml" />
     <Content Include="Views\Students\Index.cshtml" />
-    <Content Include="Views\ClassOfferings\Create.cshtml" />
-    <Content Include="Views\ClassOfferings\Delete.cshtml" />
     <Content Include="Views\ClassOfferings\Details.cshtml" />
-    <Content Include="Views\ClassOfferings\Edit.cshtml" />
     <Content Include="Views\ClassOfferings\Index.cshtml" />
     <Content Include="Views\CurrentClassOfferings\Create.cshtml" />
     <Content Include="Views\CurrentClassOfferings\Delete.cshtml" />
     <Content Include="Views\CurrentClassOfferings\Details.cshtml" />
     <Content Include="Views\CurrentClassOfferings\Edit.cshtml" />
     <Content Include="Views\CurrentClassOfferings\Index.cshtml" />
+    <Content Include="Views\ClassesTakens\Create.cshtml" />
+    <Content Include="Views\ClassesTakens\Delete.cshtml" />
+    <Content Include="Views\ClassesTakens\Details.cshtml" />
+    <Content Include="Views\ClassesTakens\Edit.cshtml" />
+    <Content Include="Views\ClassesTakens\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

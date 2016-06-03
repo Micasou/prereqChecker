@@ -63,9 +63,7 @@
                     @Html.DisplayFor(modelItem => item.CourseDescription)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ClassOfferingID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ClassOfferingID })
+                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID })
                 </td>
             </tr>
         }
@@ -99,9 +97,7 @@
                     @Html.DisplayFor(modelItem => item.CourseDescription)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.ClassOfferingID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ClassOfferingID })
+                    @Html.ActionLink("Details", "Details", new { id = item.ClassOfferingID })
                 </td>
             </tr>
         }
@@ -109,6 +105,5 @@
     </table>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ClassOffering.ClassOfferingID }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
